@@ -1,0 +1,29 @@
+{
+  "name": "animal",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "common-name": {
+      "type": "string",
+      "required": true
+    },
+    "scientific-name": {
+      "type": "string"
+    },
+    "species": {
+      "type": "string",
+      "required": true
+    },
+    "habitat": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

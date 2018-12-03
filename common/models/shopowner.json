@@ -1,0 +1,39 @@
+{
+  "name": "shopowner",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "firstname": {
+      "type": "string",
+      "required": true
+    },
+    "lastname": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "contact": {
+      "type": "number",
+      "required": true
+    },
+    "avatar": {
+      "type": "string",
+      "default": "default-avatar.jpg"
+    },
+    "social": {
+      "type": [
+        "object"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
